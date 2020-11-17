@@ -1,0 +1,161 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+body {
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+}
+
+i {
+    margin: 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    border-bottom: 1mm ridge rgb(58 17 17);
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: whitesmoke;
+}
+h3 {
+    color: whitesmoke;
+}
+p {
+    color: whitesmoke;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.blocks-index {
+    margin-top: 2vw;
+    margin-right: 17vw;
+    margin-bottom: 2vw;
+    margin-left: 17vw;
+    min-height: calc(100vh - 227px);
+}
+
+.blocks-one,
+.blocks-two,
+.blocks-three {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 10vw;
+}
+
+.blocks-two {
+    background-color: #1c1d1de0;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vw;
+    box-shadow: -1em 0 5em #731a1a00;
+}
+
+.blocks-one {
+    justify-content: space-around;
+}
+
+.one-tittle {
+    width: 50%;
+    background-color: #1c1d1de0;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    box-shadow: 5px 5px 5px #7d1c1c;
+}
+
+.two-tittle {
+    width: 50%;
+    background-color: #1c1d1de0;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vw;
+    box-shadow: -1em 0 5em #731a1a9c;
+}
+
+.four-tittle {
+    width: 40%;
+    background-color: #1c1d1de0;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+    box-shadow: -1em 0 5em #731a1a63;
+}
+
+.five-tittle {
+    width: 60%;
+    background-color: #1c1d1de0;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: -1em 0 5em #731a1a6b;
+}
+
+footer {
+    height: 5vw;
+    background-color: black;
+    border-top: 1mm ridge rgb(220 50 50 / 17%);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: whitesmoke;
+}
+
+.icons-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1vw;
+}
+
+.footer-tittle {
+    margin: 1vw;
+}
+
+.footer-a {
+    margin: 1vw;
+}
+
+ h2:hover {
+    color: #dd8c8c;
+    box-shadow: 3px 5px 20px 20px #a72424;
+    transition: 0.7s;
+    border-radius: 5px;
+    background-color: #a32424;
+}
+.blocks{
+    margin-top: 2vw;
+    margin-right: 7vw;
+    margin-bottom: 2vw;
+    margin-left: 7vw;
+    min-height: calc(100vh - 227px);
+}
+.target{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.name-target, .description-target {
+width: 50%;
+margin-top: 30px;
+margin-bottom: 30px;
+}
