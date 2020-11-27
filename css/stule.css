@@ -25,9 +25,11 @@ h1 {
 h2 {
     color: whitesmoke;
 }
+
 h3 {
     color: whitesmoke;
 }
+
 p {
     color: whitesmoke;
 }
@@ -135,27 +137,86 @@ footer {
     margin: 1vw;
 }
 
- h2:hover {
+h2:hover {
     color: #dd8c8c;
     box-shadow: 3px 5px 20px 20px #a72424;
     transition: 0.7s;
     border-radius: 5px;
     background-color: #a32424;
 }
-.blocks{
+
+.blocks {
     margin-top: 2vw;
     margin-right: 7vw;
     margin-bottom: 2vw;
     margin-left: 7vw;
     min-height: calc(100vh - 227px);
 }
-.target{
+
+.target {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.name-target, .description-target {
-width: 50%;
-margin-top: 30px;
-margin-bottom: 30px;
+
+.name-target,
+.description-target {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(9, 17vw);
+}
+
+.item-2 {
+    background-image: url(../img/theme/it.jpeg);
+    background-size: cover;
+}
+
+.item-3 {
+    background-image: url(../img/theme/phy.jpeg);
+    background-size: cover;
+}
+
+.item-6 {
+    background-image: url(../img/theme/math.jpg);
+    background-size: cover;
+}
+
+.item-7 {
+    background-image: url(../img/theme/lang.jpg);
+    background-size: contain;
+}
+
+.item-10 {
+    background-image: url(../img/theme/ast.png);
+    background-size: cover;
+}
+
+.item-11 {
+    background-image: url(../img/theme/geo.jpg);
+    background-size: cover;
+}
+
+.item-14 {
+    background-image: url(../img/theme/his.jpg);
+    background-size: cover;
+}
+
+.item-15 {
+    background-image: url(../img/theme/engi.jpg);
+    background-size: contain;
+}
+
+.item-18 {
+    background-image: url(../img/theme/fin.jpg);
+    background-size: cover;
+}
+
+.grid-item p {
+    font-size: 3vw;
 }
