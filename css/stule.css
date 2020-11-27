@@ -217,6 +217,10 @@ h2:hover {
     background-size: cover;
 }
 
-.grid-item p {
+.grid-item a {
     font-size: 3vw;
+    height: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 20%;
 }
