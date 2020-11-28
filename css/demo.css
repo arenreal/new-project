@@ -290,7 +290,7 @@ a:focus {
 
 .pater {
     position: fixed;
-    right: 0;
+    right: 7vw;
     bottom: 0;
     color: #fff;
     width: 320px;
@@ -401,7 +401,7 @@ a:focus {
         width: 100%;
         padding: 1em;
         text-align: left;
-        background: rgba(49, 63, 105, 0.8);
+        background: #313f6900;
         -webkit-transform: translateZ(200px);
         transform: translateZ(200px);
     }
